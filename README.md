@@ -35,7 +35,7 @@ This will install the LegoIdeas module and its one dependency, [BurntToast](http
 
 1. Open your favourite PowerShell (or run `refreshenv` if you haven't closed the one from earlier installation)
 2. Run `Get-NewLegoIdeasPosts` to build your initial database of posts (`posts.json`) and your user config (`config.json`). These will be in `C:\Users\<username>\AppData\Local\Legoideas\`. The first run will take ~a minute to get through all the pages. 
-3. Subsequently run `Get-NewLegoIdeasPosts` again at any point to add new posts to the local database and be alerted of any matching preferences set in your `config.json` ([see configuration](https://github.com/Bzly/lego-ideas-scraper#configuration) below). 
+3. Subsequently run `Get-NewLegoIdeasPosts` again at any point to add new posts to the local database and be alerted of any matching preferences set in your `config.json` (see [configuration](#configuration) below). 
     * It is recommended to schedule this with e.g. Task Scheduler. You can import `CheckIdeasTask.xml` from this repository, or create your own. Daily or weekly checks recommended.
 
 ## Configuration
