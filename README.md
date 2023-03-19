@@ -15,7 +15,7 @@ PowerShell 5.1 is easiest as it is likely already on your system, but does have 
 ### PowerShell Gallery
 
 From a PowerShell (v5.1+) prompt, run:
-```
+``` powershell
 Install-Module -Name LegoIdeas
 ```
 
