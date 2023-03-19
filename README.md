@@ -2,6 +2,8 @@
 
 Builds a local database of [LEGO ideas blog](https://ideas.lego.com/blogs/a4ae09b6-0d4c-4307-9da8-3ee9f3d368d6) posts on first run, and on subsequent runs sends the user a toast notification for new posts that match set criterea.
 
+![Example notification](NotificationExample.png) 
+
 I really dislike having to sift through posts to find the review qualification/results ones - LEGO, please [add tag/type filtering](https://legoideas.uservoice.com/forums/166718-general/suggestions/46433518-add-filters-to-the-lego-ideas-blog) to the Ideas blog!
 
 ## Installation
